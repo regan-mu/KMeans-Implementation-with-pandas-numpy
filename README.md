@@ -3,6 +3,9 @@
 Kmeans is a clustering algorithm that seeks to find natural groupings in unlabeled data.
 This project seeks to mimic how the KMeans works in a naive approach.
 
+![pandas](https://img.shields.io/static/v1?label=pandas&message=1.4.4&color=blue)
+![numpy](https://img.shields.io/static/v1?label=numpy&message=1.23.5&color=green)
+
 # How it works
 
 1. Cluster K number of centroids are initialized randomly from the data. K is the number of clusters you want to use.
