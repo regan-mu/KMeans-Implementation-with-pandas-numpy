@@ -27,6 +27,27 @@ This project seeks to mimic how the KMeans works in a naive approach.
 
 The predict method returns the columns in the original dataframe together with the **clusters** column which is the cluster that each datapoint is assigned to.
 
+### Selecting K best
+
+* We use the Elbow curve to determine the optimal number of clusters in our data.
+* First calculate inertia - inertia measures how far datapoints assigned to a cluster are from that clusters centroid.
+* We want to get the fewest number of clusters that give the lowest inertia.
+
+```python
+    inertias = []
+    for i in range(2, 11):
+        km = NaiveKmeans(df, i)
+        km.predict()
+        inertia = km.inertia()
+        inertias.append(inertia)
+```
+
+* Visualize the inertia and the number of cluster, where the elbow begins the form should be the optimal clusters.
+
+![Elbow curve](./assets//elbow.png)
+
+* Sometimes in certain real world scenarios, the number of cluster could already be predefined.
+
 # Limitations
 
 * The algorithm is not optimized for large datasets.
