@@ -22,7 +22,7 @@ This project seeks to mimic how the KMeans works in a naive approach.
     final_centroids = kmeans.centroids
 ```
 
-The predict method returns the columns in the original dataframe together with the *clusters* which is the cluster that each datapoint is assigned to.
+The predict method returns the columns in the original dataframe together with the **clusters** column which is the cluster that each datapoint is assigned to.
 
 # Limitations
 
