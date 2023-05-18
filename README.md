@@ -11,6 +11,8 @@ This project seeks to mimic how the KMeans works in a naive approach.
 4. New centriods are adjusted as the means of each cluster for all the variables in the data.
 5. Steps 2-4 are repeated until the centroids can no longer change or the maximum number of iterations is reached.
 
+![KMeans](./assets/illustration.png)
+
 # How to use it
 
 ```python
