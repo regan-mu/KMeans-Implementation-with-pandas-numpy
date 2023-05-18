@@ -46,6 +46,7 @@ The predict method returns the columns in the original dataframe together with t
 
 ![Elbow curve](./assets//elbow.png)
 
+* In our graph above, the best number of cluster is **k=5**.
 * Sometimes in certain real world scenarios, the number of cluster could already be predefined.
 
 # Limitations
