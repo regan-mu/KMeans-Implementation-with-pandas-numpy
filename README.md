@@ -12,7 +12,7 @@ This project seeks to mimic how the KMeans works in a naive approach.
 2. The distance between each centriod and all the records in the dataframe is calculated. (Used Euclidean Distance).
 3. Each datapoint is assigned to the cluster of it's nearest centroid.
 4. New centriods are adjusted as the means of each cluster for all the variables in the data.
-5. Steps 2-4 are repeated until the centroids can no longer change or the maximum number of iterations is reached.
+5. Steps 2-4 are repeated until the centroids can no longer change (convergence) or the maximum number of iterations is reached.
 
 ![KMeans](./assets/illustration.png)
 
